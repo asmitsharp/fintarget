@@ -1,0 +1,33 @@
+{
+  "name": "fintarget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmitsharp/fintarget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmitsharp/fintarget/issues"
+  },
+  "homepage": "https://github.com/asmitsharp/fintarget#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "ioredis": "^5.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "ioredis-mock": "^8.9.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
